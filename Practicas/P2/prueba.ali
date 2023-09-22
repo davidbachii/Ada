@@ -1,0 +1,108 @@
+V "GNAT Lib v10"
+M P W=b
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV SPARK_05
+
+U prueba%b		prueba.adb		ba35721f NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.integer_aux%s  a-tiinau.adb	a-tiinau.ali
+Z ada.text_io.integer_io%s
+W fracciones%s		fracciones.adb		fracciones.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20210408115627 76789da1 ada%s
+D a-except.ads		20210408115627 a7106115 ada.exceptions%s
+D a-ioexce.ads		20210408115627 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210408115627 119b8fb3 ada.streams%s
+D a-tags.ads		20210408115627 491b781d ada.tags%s
+D a-textio.ads		20210408115627 aef4d56d ada.text_io%s
+D a-tiinau.ads		20210408115627 8114c8e4 ada.text_io.integer_aux%s
+D a-tiinio.ads		20210408115627 390edddb ada.text_io.integer_io%s
+D a-tiinio.adb		20210408115627 df9cd7af ada.text_io.integer_io%b
+D a-unccon.ads		20210408115627 0e9b276f ada.unchecked_conversion%s
+D fracciones.ads	20230222181628 7eaaac81 fracciones%s
+D interfac.ads		20210408115627 5ab55268 interfaces%s
+D i-cstrea.ads		20210408115627 e53d8b8e interfaces.c_streams%s
+D prueba.adb		20230222192041 cd7b6ae6 prueba%b
+D system.ads		20210408115627 4635ec04 system%s
+D s-crtl.ads		20210408115627 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210408115627 54135002 system.exception_table%s
+D s-ficobl.ads		20210408115627 078245e4 system.file_control_block%s
+D s-parame.ads		20210408115627 48ec542b system.parameters%s
+D s-secsta.ads		20210408115627 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20210408115627 a7318a92 system.soft_links%s
+D s-stache.ads		20210408115627 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210408115627 09bd3940 system.standard_library%s
+D s-stoele.ads		20210408115627 2dc34a04 system.storage_elements%s
+D s-traent.ads		20210408115627 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210408115627 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20210408115627 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [prueba standard 5 11 none]
+G r c none [prueba standard 5 11 none] [Odivide fracciones 7 11 none]
+G r c none [prueba standard 5 11 none] [numerador fracciones 24 11 none]
+G r c none [prueba standard 5 11 none] [denominador fracciones 25 11 none]
+G r c none [prueba standard 5 11 none] [escribir fracciones 20 12 none]
+G r c none [prueba standard 5 11 none] [Oeq fracciones 14 11 none]
+G r c none [prueba standard 5 11 none] [Oadd fracciones 9 11 none]
+G r c none [prueba standard 5 11 none] [Osubtract fracciones 10 11 none]
+G r c none [prueba standard 5 11 none] [Osubtract fracciones 11 11 none]
+G r c none [prueba standard 5 11 none] [Omultiply fracciones 12 11 none]
+G r c none [prueba standard 5 11 none] [Odivide fracciones 13 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 14|1r6 2r6 3r5 64r6 70r11
+X 2 a-except.ads
+48K13*Exceptions 335e19 14|2w10 64r10 70r15
+98V13*Exception_Information{string} 14|64s21 70s26
+X 6 a-textio.ads
+57K13*Text_IO 727e16 14|1w10 3r9
+465U14*Put 14|19s1 21s1 23s1 28s1 32s1 36s1 39s1 42s1 45s1 48s1 52s1 64s1
+508U14*Put_Line 14|25s1 60s1 63s1 66s1 67s1 68s1 69s1 70s1
+X 8 a-tiinio.ads
+46k21*Integer_IO 108e27 14|6r27
+X 11 fracciones.ads
+2K9*fracciones 32e15 14|1w19 3r18
+3R7*fraccion_t 31e12 14|9r4 10r4 11r4
+7V12*"/"{3R7} 14|9s19 10s22 11s19 26s10 30s12 34s12 38s12 41s13 44s13 47s12
+. 50s12 55s5 59s9
+9V12*"+"{3R7} 14|29s11 30s5
+10V12*"-"{3R7} 14|33s10 34s4 34s10 41s11 44s11
+11V12*"-"{3R7} 14|37s11 38s5 46s11 47s5 49s11 50s5
+12V12*"*"{3R7} 14|40s11 41s5 57s5
+13V12*"/"{3R7} 14|43s11 44s5 53s11 54s5
+14V12*"="{boolean} 14|26s6 30s8 34s7 38s8 41s8 44s8 47s8 50s8 59s5
+20U12*Escribir 14|20s1 22s1 24s1 29s1 33s1 37s1 40s1 43s1 46s1 49s1 53s1
+24V11*Numerador{integer} 14|15s4
+25V11*Denominador{positive} 14|16s1
+X 14 prueba.adb
+5U11*Prueba 5b11 71l5 71t11
+6K9 Integer_Es[8|46] 7r5
+8X1 Practica_no_Apta 26r27 30r28 34r26 38r26 41r27 44r27 47r26 50r26 59r26
+. 62r19
+9r1 A{11|3R7} 20r10 29r10 30r4 33r11 34r5 37r10 38r4 40r10 41r4 43r10 44r4
+. 46r10 47r4 49r10 49r12 50r4 50r6 53r10 54r4
+10r1 B{11|3R7} 15r15 16r14 22r10 26r4 29r12 30r6 37r12 38r6 40r12 41r6 43r12
+. 44r6 46r12 47r6 57r6
+11r1 P{11|3R7} 24r10 53r12 54m1 54r6 55m1 57m1 57r4 59r4
+56i5 I{integer}
+62r6 Ocurrencia{2|57R9} 64r44
+65r6 Ocurrencia{2|57R9} 70r49
+

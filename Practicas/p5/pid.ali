@@ -1,0 +1,69 @@
+V "GNAT Lib v10"
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV SPARK_05
+
+U pid%b			pid.adb			0949aec1 NE OO PK GE IU
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+U pid%s			pid.ads			43ecaad7 BN EE NE OO PK GE IU
+
+D ada.ads		20210408115627 76789da1 ada%s
+D a-except.ads		20210408115627 a7106115 ada.exceptions%s
+D a-ioexce.ads		20210408115627 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210408115627 119b8fb3 ada.streams%s
+D a-tags.ads		20210408115627 491b781d ada.tags%s
+D a-textio.ads		20210408115627 aef4d56d ada.text_io%s
+D a-unccon.ads		20210408115627 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210408115627 5ab55268 interfaces%s
+D i-cstrea.ads		20210408115627 e53d8b8e interfaces.c_streams%s
+D pid.ads		20230416172749 43ecaad7 pid%s
+D pid.adb		20230416182513 e451d17b pid%b
+D system.ads		20210408115627 4635ec04 system%s
+D s-crtl.ads		20210408115627 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210408115627 54135002 system.exception_table%s
+D s-ficobl.ads		20210408115627 078245e4 system.file_control_block%s
+D s-parame.ads		20210408115627 48ec542b system.parameters%s
+D s-secsta.ads		20210408115627 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20210408115627 a7318a92 system.soft_links%s
+D s-stache.ads		20210408115627 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210408115627 09bd3940 system.standard_library%s
+D s-stoele.ads		20210408115627 2dc34a04 system.storage_elements%s
+D s-traent.ads		20210408115627 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210408115627 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20210408115627 1b7d22d2 system.wch_con%s
+G a e
+G c Z s b [pid standard 5 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 11|1r6 2r5
+X 6 a-textio.ads
+57K13*Text_IO 727e16 11|1w10 2r9
+X 10 pid.ads
+2F9 Real 9r48 16r19 18r23 19r23 11|4r78 13r13 17r22 22r50
+3F9 Entrada 11r51 11|12r75
+4F9 Salida 12r51 11|12r91 20r22
+5k9*PID 2z9 3z9 4z9 14E9 21l5 21e8 11|3b14 26l5 26t8
+6R9*Controlador 8r48 10r51 14c9 20e14 11|4r53 12r56
+8U14*Programar 8=25 9>29 9>33 9>37 11|4b19 10l13 10t22
+8r25 el_Controlador{6R9} 11|4b30 7m17 8m17 9m17
+9*29 Kp{2F9} 11|4b66 7r38
+9*33 Ki{2F9} 11|4b70 8r38
+9*37 Kd{2F9} 11|4b74 9r38
+10U14*Controlar 10=24 11>38 11>41 12<41 11|12b19 24l13 24t22
+10r24 con_el_Controlador{6R9} 11|12b29 20r29 20r57 20r79 20r111 20r138 22m17
+. 22r55 23m17
+11*38 R{3F9} 11|12b69 17r27
+11*41 C{3F9} 11|12b72 17r29
+12*41 U{4F9} 11|12b84 20m17
+16*7 Kp{2F9} 11|7m32 20r48
+16*11 Ki{2F9} 11|8m32 20r76
+16*15 Kd{2F9} 11|9m32 20r130
+18*7 S_Anterior{2F9} 11|20r98 22m36 22r74
+19*7 Error_Anterior{2F9} 11|20r157 23m36
+X 11 pid.adb
+13*9 e{10|2F9} 17m17 20r53 20r134 22r87 23r54
+

@@ -1,0 +1,159 @@
+V "GNAT Lib v10"
+M P W=b
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_ENUMERATION_MAPS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV SPARK_05
+
+U registros%b		registros.adb		3f138226 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.enumeration_aux%s  a-tienau.adb	a-tienau.ali
+Z ada.text_io.enumeration_io%s
+Z ada.text_io.fixed_io%s
+Z ada.text_io.float_aux%s  a-tiflau.adb		a-tiflau.ali
+Z ada.text_io.generic_aux%s  a-tigeau.adb	a-tigeau.ali
+Z ada.text_io.integer_aux%s  a-tiinau.adb	a-tiinau.ali
+Z ada.text_io.integer_io%s
+Z interfaces%s		interfac.ads		interfac.ali
+Z system%s		system.ads		system.ali
+Z system.arith_64%s	s-arit64.adb		s-arit64.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.exp_lli%s	s-explli.adb		s-explli.ali
+Z system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.img_real%s	s-imgrea.adb		s-imgrea.ali
+Z system.val_enum%s	s-valenu.adb		s-valenu.ali
+
+D ada.ads		20210408115627 76789da1 ada%s
+D a-except.ads		20210408115627 a7106115 ada.exceptions%s
+D a-ioexce.ads		20210408115627 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210408115627 119b8fb3 ada.streams%s
+D a-tags.ads		20210408115627 491b781d ada.tags%s
+D a-textio.ads		20210408115627 aef4d56d ada.text_io%s
+D a-tienau.ads		20210408115627 6a9c157b ada.text_io.enumeration_aux%s
+D a-tienio.ads		20210408115627 2e79c9bf ada.text_io.enumeration_io%s
+D a-tienio.adb		20210408115627 c9e6b5af ada.text_io.enumeration_io%b
+D a-tifiio.ads		20210408115627 ad0445c9 ada.text_io.fixed_io%s
+D a-tifiio.adb		20210408115627 e4f802ff ada.text_io.fixed_io%b
+D a-tiflau.ads		20210408115627 c0393f21 ada.text_io.float_aux%s
+D a-tigeau.ads		20210408115627 9eaed207 ada.text_io.generic_aux%s
+D a-tiinau.ads		20210408115627 8114c8e4 ada.text_io.integer_aux%s
+D a-tiinio.ads		20210408115627 390edddb ada.text_io.integer_io%s
+D a-tiinio.adb		20210408115627 df9cd7af ada.text_io.integer_io%b
+D a-unccon.ads		20210408115627 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210408115627 5ab55268 interfaces%s
+D i-cstrea.ads		20210408115627 e53d8b8e interfaces.c_streams%s
+D registros.adb		20230212162409 91e7574b registros%b
+D system.ads		20210408115627 4635ec04 system%s
+D s-arit64.ads		20210408115627 404da5f2 system.arith_64%s
+D s-conca2.ads		20210408115627 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20210408115627 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210408115627 54135002 system.exception_table%s
+D s-explli.ads		20210408115627 ba60219a system.exp_lli%s
+D s-ficobl.ads		20210408115627 078245e4 system.file_control_block%s
+D s-imenne.ads		20210408115627 614c06c0 system.img_enum_new%s
+D s-imgint.ads		20210408115627 02dbe0c2 system.img_int%s
+D s-imgrea.ads		20210408115627 c7a851e2 system.img_real%s
+D s-parame.ads		20210408115627 48ec542b system.parameters%s
+D s-secsta.ads		20210408115627 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20210408115627 a7318a92 system.soft_links%s
+D s-stache.ads		20210408115627 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210408115627 09bd3940 system.standard_library%s
+D s-stoele.ads		20210408115627 2dc34a04 system.storage_elements%s
+D s-traent.ads		20210408115627 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210408115627 34867c83 system.unsigned_types%s
+D s-valenu.ads		20210408115627 6201ebfb system.val_enum%s
+D s-wchcon.ads		20210408115627 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [registros standard 5 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 20|2r6 2r23 7r23 18r33 22r26 26r27 30r26
+X 6 a-textio.ads
+57K13*Text_IO 727e16 20|2w10 2r27 7r27 18r37 22r30 26r31 30r30
+264U14*New_Line 20|52s9 59s17 117s9 122s9
+465U14*Put 20|53s9 60s17 62s17 64s17 66s17 113s9 114s9 115s9 116s9 118s9
+. 119s9 120s9 121s9 123s9 124s9 125s9 126s9 127s9 128s9 129s9 130s9
+X 8 a-tienio.ads
+26k21*Enumeration_IO 76e31 20|26r39
+34U14 Get 20|63s17[26]
+X 10 a-tifiio.ads
+26k21*Fixed_IO 92e25 20|18r45
+40U14 Get 20|67s17[18]
+X 15 a-tiinio.ads
+46k21*Integer_IO 108e27 20|7r35 22r38 30r38
+59U14 Get 20|54s9[7] 61s17[22] 65s17[30]
+X 18 interfac.ads
+55I9*Integer_64<long_long_integer>
+X 20 registros.adb
+5U11*registros 5b11 133l5 133t14
+7K9 Ent_Es[15|46] 8r5
+10b1 encontradoMinimo{boolean} 97m17 98r23
+11b1 encontradoMaximo{boolean} 107m17 108r23
+12i1 I{integer} 54m14 57r32 58r19 89r36
+12i4 J{integer} 55m9 58r15 61r23 63r23 65r23 67r23 68m17 68r22
+12i6 posicionMin{integer} 94m9 99m17 99r32 114r42 115r24 116r24
+12i18 posicionMax{integer} 104m9 109m17 109r32 119r42 120r24 121r23
+13f1 media{float} 89m9 129r29
+17O6 temperatura_t 18r54 37r8 47r10 48r10 49r8
+18K9 ES_temperatura_t[10|26] 19r5
+21I6 dias_t<short_short_integer> 22r49 34r7
+22K9 ES_dias_t[15|46] 23r5
+25E6 meses_t 25e125 26r54 35r7
+25n18 enero{25E6}
+25n26 febrero{25E6}
+25n36 marzo{25E6}
+25n44 abril{25E6}
+25n52 mayo{25E6}
+25n59 junio{25E6}
+25n67 julio{25E6}
+25n74 agosto{25E6}
+25n82 septiembre{25E6}
+25n94 octubre{25E6}
+25n103 noviembre{25E6}
+25n115 diciembre{25E6}
+26K9 ES_meses_t[8|26] 27r5
+29I6 year_t<short_integer> 30r49 36r8
+30K9 ES_year_t[15|46] 31r5
+33R6 fecha_t 38e12 41r52
+34i1 Dia{21I6} 61m26 114r55 119r55 123r55 126r31
+35e1 Mes{25E6} 63m26 115r37 120r37 124r27 127r32
+36i1 Year{29I6} 65m26 116r37 121r36 125r27 128r32
+37o1 temp{17O6} 67m26 71r24 73r25 74r32 78r24 80r25 81r32 87r30 96r34 106r34
+41A6 fecha_array(33R6)<integer> 43r25 57r17
+43P6 pArray_t(41A6) 45r4
+45p1 v{43P6} 57m9 61r21 63r21 65r21 67r21 71r19 72r18 73r20 74r27 78r19 79r18
+. 80r20 81r27 85r18 87r25 95r18 96r29 105r18 106r29 114r40 115r22 116r22
+. 119r40 120r22 121r21 123r50 124r22 125r22 126r21 126r23 127r22 127r24 128r22
+. 128r24
+47o1 minimo{17O6} 71m9 73r32 74m17 96r20 113r38
+48o1 maximo{17O6} 78m9 80r32 81m17 106r20 118r38
+49o1 suma{17O6} 87m17 87r36 89r24
+72i13 I{integer} 73r22 74r29
+79i13 I{integer} 80r22 81r29
+85i13 I{integer} 87r27
+95i13 I{integer} 96r31
+105i13 I{integer} 106r31
+X 22 s-arit64.ads
+44I12*Int64{18|55I9}
+54V13*Multiply_With_Ovflo_Check{44I12} 55i<c,__gnat_mulv64>22
+
