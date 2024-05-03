@@ -23,6 +23,8 @@ procedure Excepciones is
         end loop;
         return dato;
     end Lee_natural;
+
+    -- De esta forma cada vez que creemos un numero naturtal vamos a poder vreficar si es valido o no
     
     canastas2 : Natural;
     triples : Natural;
