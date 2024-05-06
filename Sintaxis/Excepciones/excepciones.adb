@@ -23,7 +23,6 @@ X : Integer;
 begin
 
 loop
-
     exit when x'valid; -- Verificamos si el valor es valido para asegurarnos que no se produzca un error
     -- Se abre la opcion de excepciones 
     exception
