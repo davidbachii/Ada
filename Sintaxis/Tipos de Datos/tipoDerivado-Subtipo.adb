@@ -10,6 +10,9 @@ type masa1_t is new Float range 0.0..10 _000 .0;  -- Tipo derivado de Float con 
 Subtype masa2_t is Float range 0.0..12 _000 .0;   -- Subtipo de Float con rango de 0.0 a 12.000.0 HEREDA DE FLOAT PERO NO CREA UN TIPO NUEVO POR LO QUE SIGUE SIENDO UN FLOAT (NO TIENE NEW)
 
 
+package Masa_IO is new Ada.Text_IO.Float_IO (masa1_t); -- Creo un paquete de entrada y salida de datos de tipo masa1_t
+package Masa_IO is new Ada.Text_IO.Float_IO (masa2_t); -- Creo un paquete de entrada y salida de datos de tipo masa2_t
+
 -- Variables
 X: Float := 5 _000 ; -- Variable de tipo Float
 Y: masa1_t ; -- Variable de tipo masa1_t

@@ -8,6 +8,9 @@ with Ada.Text_IO; use Ada.Text_IO;
    type My_Array_Access is access My_Array;  --Creamos un puntero a el tipo de array de enteros que hemos creado
    type My_Array_Access_Access is access My_Array_Access; --Creamos un puntero a el puntero de el tipo de array de enteros que hemos creado
 
+
+
+   -- La diferencia que a los punteros en ejecucion si se le puede modificar el tamaño del array o los datos de este 
   
     --Formas de inicializar un array de enteros
    A : My_Array (1 .. 3) := (1, 2, 3);

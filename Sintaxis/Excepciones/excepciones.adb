@@ -12,7 +12,7 @@ procedure Excepciones is
 
 -- Name_Error: se produce cuando se intenta abrir un fichero que no existe.
 
-
+-- MIRAR PRACTICA DOS MANEJO DE EXCEPCIONES PARA ERRORES EN LAS FRACCIONES
 
 package Integer_IO is new Ada.Text_IO.Integer_IO(Integer);
 use Integer_IO;
